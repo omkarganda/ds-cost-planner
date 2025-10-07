@@ -147,8 +147,6 @@ def databricks_cost(ss):
 ensure_defaults()
 
 st.title("Stakeholder Cost Planner – DS Platforms")
-st.caption("Interactive, stakeholder-friendly cost comparison for AWS SageMaker, Google Vertex AI, and Databricks. List-price style defaults – adjust for your org’s discounts.")
-
 with st.sidebar:
     st.header("Quick Inputs")
     # Preset with apply
@@ -311,3 +309,4 @@ with st.expander("How to interpret & present", expanded=False):
 5. **Advanced knobs** let engineering tweak instance rates/hours or add serving on Databricks.
     """)
     st.caption("All figures are list-price style for illustration. Apply your org’s discounts/commits for final numbers.")
+
